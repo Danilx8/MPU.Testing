@@ -1,6 +1,7 @@
 const { Builder, By } = require('selenium-webdriver')
 const assert = require('assert')
 
+//old and stinky version
 async function lambdaTest() {
   const driver = new Builder().forBrowser('firefox').build()
   await driver
